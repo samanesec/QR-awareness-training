@@ -1,1 +1,1 @@
-# QR-awareness-training
+# QR-awareness-training.
