@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intern pålogging</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <div class="card">
+      <h1>Intern pålogging</h1>
+      <p class="subtitle">Kun for ansatte</p>
+
+      <!-- Viktig: IKKE form. Ingen name-attributter. -->
+      <label for="user">Brukernavn</label>
+      <input id="user" type="text" placeholder="Skriv inn brukernavn" autocomplete="off" />
+
+      <label for="pass">Passord</label>
+      <input id="pass" type="password" placeholder="Skriv inn passord" autocomplete="off" />
+
+      <button id="loginBtn" type="button">Logg inn</button>
+
+      <p class="fineprint">
+        Uautorisert tilgang er ikke tillatt. Denne siden brukes til intern tilgangskontroll.
+      </p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
